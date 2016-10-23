@@ -11,18 +11,18 @@ sudo apt-get install prolog
 
 #ou
 
-prolog -q -f tp1.pl
+prolog -q -f connect4.pl
 start.
 
 # ou
 
 prolog
-consult(tp1).
+consult(connect4).
 ```
 
 
 # compile
 
 ```bash
-swipl --goal=start --stand_alone=true -o start -c tp1.pl
+swipl --goal=start --stand_alone=true -o start -c connect4.pl
 ```
